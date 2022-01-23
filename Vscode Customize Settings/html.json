@@ -1,4 +1,15 @@
 {
+    "divisi": {
+        "prefix": "dip",
+        "body": [
+            "<div class=\"$1\">",
+            "\t",
+            "</div>",
+            ],
+        "description": "Buat Divisi",
+        "scope": "text.html"
+        },
+
     "doctype": {
     "prefix": "doctype",
     "body": [
