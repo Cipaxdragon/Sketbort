@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="ASDA.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>$1</title>
+</head>
+<body>
+	<h1 >Hello World</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elementum nulla sit amet mauris molestie fermentum. Donec lectus odio, molestie nec leo eget, iaculis consectetur risus. Nam sit amet porttitor enim. Praesent dignissim faucibus lacus, in ornare nisl consequat bibendum. Aenean in nisi sit amet dui dapibus aliquam. Nulla rutrum lobortis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum bibendum justo sed lacus semper, eget consectetur ipsum scelerisque. Aenean et nulla mauris. Sed a orci sodales, pulvinar ex sed, semper nibh. Pellentesque hendrerit ornare auctor. Sed mattis lorem et diam posuere ullamcorper. Phasellus ac odio vel velit facilisis euismod ac non neque. Vestibulum pellentesque odio lacinia mauris </p>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pablo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
