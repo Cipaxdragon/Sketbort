@@ -4,7 +4,7 @@
         "body": [
             "<div class=\"$1\">",
             "\t",
-            "</div>",
+            "</div>"
             ],
         "description": "Buat Divisi",
         "scope": "text.html"
