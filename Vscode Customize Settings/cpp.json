@@ -2,19 +2,19 @@
 	"cout": {
 		"prefix": "kon",
 		"body": [
-			"cout << \"${1:/* owutputan */}\" << endl;"
+			"cout << \"$1\" << endl;"
 		],
 		"description": "Code snippet for printing to std::cout, provided the header is set"
 	},
     "cout no endl": {
 		"prefix": "tol",
 		"body": [
-			"cout << \"${1:}\";"
+			"cout << \"${1:/* owutputan */}\";"
 		],
 		"description": "Code snippet for printing to std::cout, provided the header is set"
 	},
 
-	"Include iostrim": {
+	"Include": {
 		"prefix": "ijalkontol",
 		"body": [
 			"#include <iostream>",
@@ -23,7 +23,7 @@
 			"",
 			"int main(){",
 			"",
-			"    cout << \"===== ${1:/* Apa Judulna Program nu */} ======\" << endl;",
+			"    cout << \"===== Program ${1:/* Apa Judulna Program nu */} ======\" << endl;",
 			"",
 			"    system(\"pause\");",
 			"}"
@@ -40,18 +40,27 @@
 	"if": {
 		"prefix": "ipp",
 		"body": [
-			"if ($1){",
-			"\t$2",
+			"if (${1:/*Kondisinya Bro*/}){",
+			"\t${2:/*Setatementnya*/}",
+			"}"
+		],
+		"description": "Code snippet for if statement"
+	},	
+	"for": {
+		"prefix": "por",
+		"body": [
+			"for(${1:int} i = 0;i <= 10;i++){",
+			"\t${2:/*Setatementnya*/}",
 			"}"
 		],
 		"description": "Code snippet for if statement"
 	},
-
-	"pause":{
-		"prefix": "pause",
+	"endl": {
+		"prefix": "barisbaru",
 		"body": [
-			"system(\"pause\");"
-		]
+			"cout << endl;"
+		],
+		"description": "Code snippet for if statement"
 	}
 }
 

@@ -1,19 +1,23 @@
-{    
-    "workbench.colorTheme": "Ayu Dark",
+{
     "files.autoSave": "afterDelay",
     "workbench.colorCustomizations": {
 
-        "list.focusForeground": "#ff0000",
+        "list.focusForeground": "#ffffff",
         "foreground": "#b3b3b3",
         "editorLineNumber.activeForeground": "#ffffff",
         "editor.lineHighlightBackground": "#ffffff00",
-        "editor.lineHighlightBorder": "#ffffff20",
+        "editor.lineHighlightBorder": "#ffffff2d",
         "editor.selectionBackground": "#0083838e",
         "icon.foreground": "#ffffff",
-        "editorBracketMatch.background": "#25ffed9c",
+        "editorBracketMatch.background": "#00d9ff23",
         "tab.activeForeground": "#ffffff",
         "titleBar.activeForeground": "#ffffff",
         "activityBar.foreground": "#ffffff",
-        "menu.selectionForeground": "#ffffff" 
-    }
+        "menu.selectionForeground": "#ffffff", 
+        "editor.foreground": "#ffffff"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Ayu Dark"
 }
