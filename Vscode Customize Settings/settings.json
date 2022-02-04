@@ -3,10 +3,10 @@
     "workbench.colorCustomizations": {
 
         "list.focusForeground": "#ffffff",
-        "foreground": "#b3b3b3",
+        "foreground": "#ffffff",
         "editorLineNumber.activeForeground": "#ffffff",
         "editor.lineHighlightBackground": "#ffffff00",
-        "editor.lineHighlightBorder": "#ffffff2d",
+        "editor.lineHighlightBorder": "#ffffff11",
         "editor.selectionBackground": "#0083838e",
         "icon.foreground": "#ffffff",
         "editorBracketMatch.background": "#00d9ff23",
@@ -14,10 +14,21 @@
         "titleBar.activeForeground": "#ffffff",
         "activityBar.foreground": "#ffffff",
         "menu.selectionForeground": "#ffffff", 
-        "editor.foreground": "#ffffff"
+        "editor.foreground": "#ffffff",
+        "editorCursor.foreground": "#00ffff",
+		"activityBarBadge.background": "#00ffff",
+		"activityBar.activeBorder": "#00ffff",
+		"tab.activeBorder": "#00ffff",
+		// "welcomePage.buttonBackground": "#00ffff",
+        // "focusBorder": "#00ffff"
+        // kode hex ayu dark kuning kuning #e6b450
     },
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Dark",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Ayu Dark"
+    "git.autofetch": true,
+    "git.confirmSync": false
+    
 }
