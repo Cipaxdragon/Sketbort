@@ -42,7 +42,7 @@
     "a": {
     "prefix": "a",
     "body": "<a href=\"$1\">$2</a>$3",
-    "description": "HTML - Defines a hyperlink"
+    "description": "HTML - Defines a hyperlink",
 
     },
     "abbr": {
@@ -430,7 +430,7 @@
         "\t\t<link href=\"$3css/style.css\" rel=\"stylesheet\">",
         "\t</head>",
         "\t<body>",
-        "\t$4",
+        "\t\t$4",
         "\t</body>",
         "</html>"
         ],

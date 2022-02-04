@@ -19,8 +19,9 @@
 		"activityBarBadge.background": "#00ffff",
 		"activityBar.activeBorder": "#00ffff",
 		"tab.activeBorder": "#00ffff",
-		// "welcomePage.buttonBackground": "#00ffff",
-        // "focusBorder": "#00ffff"
+        "editorIndentGuide.activeBackground": "#00ffff55",
+		"welcomePage.buttonBackground": "#00ffff",
+        "focusBorder": "#00ffff"
         // kode hex ayu dark kuning kuning #e6b450
     },
     "workbench.iconTheme": "material-icon-theme",
