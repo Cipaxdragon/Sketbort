@@ -1,7 +1,15 @@
 {
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": true,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "files.autoSave": "afterDelay",
     "workbench.colorCustomizations": {
-
         "list.focusForeground": "#ffffff",
         "foreground": "#ffffff",
         "editorLineNumber.activeForeground": "#ffffff",
@@ -13,23 +21,22 @@
         "tab.activeForeground": "#ffffff",
         "titleBar.activeForeground": "#ffffff",
         "activityBar.foreground": "#ffffff",
-        "menu.selectionForeground": "#ffffff", 
         "editor.foreground": "#ffffff",
         "editorCursor.foreground": "#00ffff",
-		"activityBarBadge.background": "#00ffff",
-		"activityBar.activeBorder": "#00ffff",
-		"tab.activeBorder": "#00ffff",
+        "activityBarBadge.background": "#00ffff",
+        "activityBar.activeBorder": "#00ffff",
+        "tab.activeBorder": "#00ffff",
         "editorIndentGuide.activeBackground": "#00ffff55",
-		"welcomePage.buttonBackground": "#00ffff",
-        "focusBorder": "#00ffff"
+        "welcomePage.buttonBackground": "#00ffff",
+        "focusBorder": "#00ffff",
+        
+        "menu.selectionForeground": "#ffffff",
+        "menu.selectionBackground": "#1ed2ff11",
+        "menubar.selectionBackground": "#1ed2ff11",
+        "menu.foreground": "#ffffffc9",
+        "tab.inactiveForeground": "#ffffffc9"
         // kode hex ayu dark kuning kuning #e6b450
     },
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Ayu Dark",
-    "git.enableSmartCommit": true,
-    "explorer.confirmDelete": false,
-    "editor.minimap.enabled": false,
-    "git.autofetch": true,
-    "git.confirmSync": false
-    
+
+
 }
