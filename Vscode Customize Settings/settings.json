@@ -7,9 +7,13 @@
     "git.confirmSync": false,
     "workbench.colorTheme": "Ayu Dark",
     "workbench.productIconTheme": "fluent-icons",
-    // "editor.fontFamily": "monolisa",
+
     "files.autoSave": "afterDelay",
     "workbench.colorCustomizations": {
+		// "editorLineNumber.foreground": "#c5c5c5",
+		"editorSuggestWidget.highlightForeground": "#ffe261",
+		"editorSuggestWidget.selectedForeground": "#00ffff",
+		"editorSuggestWidget.foreground": "#b3b3b3",
         "list.focusForeground": "#ffffff",
         "foreground": "#ffffff",
         "editorLineNumber.activeForeground": "#ffffff",
@@ -20,8 +24,12 @@
         "editorBracketMatch.background": "#00d9ff23",
         "tab.activeForeground": "#ffffff",
         "titleBar.activeForeground": "#ffffff",
-        "activityBar.foreground": "#ffffff",
+		"activityBar.inactiveForeground": "#808080",
+        "activityBar.foreground": "#00ffff",
         "editor.foreground": "#ffffff",
+        "activityBarBadge.foreground": "#000000",
+        "gitDecoration.untrackedResourceForeground": "#fffd73",
+        "gitDecoration.modifiedResourceForeground": "#00ffff",
         "editorCursor.foreground": "#00ffff",
         "activityBarBadge.background": "#00ffff",
         "activityBar.activeBorder": "#00ffff",
@@ -29,19 +37,20 @@
         "editorIndentGuide.activeBackground": "#00ffff55",
         "welcomePage.buttonBackground": "#00ffff",
         "focusBorder": "#00ffff",
-        
-        
         "welcomePage.progress.foreground": "#00ffff",
         "menu.selectionForeground": "#ffffff",
         "menu.selectionBackground": "#1ed2ff11",
         "menubar.selectionBackground": "#1ed2ff11",
         "menu.foreground": "#ffffffc9",
-        "tab.inactiveForeground": "#ffffffc9"
+        "tab.inactiveForeground": "#ffffffc9",
+		"statusBarItem.remoteBackground": "#00ffff",
+		"statusBarItem.remoteForeground": "#000000",
+		"statusBar.foreground": "#979797",
+
+
         // kode hex ayu dark kuning kuning #e6b450
         
     },
-
-    "window.zoomLevel": -1,
 //Pengaturan Warna Teks
     "editor.tokenColorCustomizations": {
         "strings": "#6dffec",
@@ -70,8 +79,34 @@
                 "settings": {
                     "foreground": "#ff8787"
                 }
-            }
+            },
+            {
+                "scope": "punctuation.separator",
+                "settings": {
+                    "foreground": "#d9ff00"
+                }
+            },
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#1fcbff"
+                }
+            },
+			{
+				"scope": "punctuation.definition.tag.end",
+				"settings": {
+					"foreground": "#f0ff9b"
+				}
+			},
+			{
+				"scope": "punctuation.definition.tag.begin",
+				"settings": {
+					"foreground": "#f0ff9b"
+				}
+			}
+			
         ]
-    }
+	},
+
 
 }
