@@ -41,7 +41,7 @@
 		"prefix": "ipp",
 		"body": [
 			"if (${1:/*Kondisinya Bro*/}){",
-			"\t${2:/*Setatementnya*/}",
+			"\t",
 			"}"
 		],
 		"description": "Code snippet for if statement"
@@ -53,7 +53,7 @@
 			"\t",
 			"}"
 		],
-		"description": "Code snippet for if statement"
+		"description": "Code snippet for For Luping statement"
 	},
 	"endl": {
 		"prefix": "barisbaru",

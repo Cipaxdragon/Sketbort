@@ -7,7 +7,7 @@
     "git.confirmSync": false,
     "workbench.colorTheme": "Ayu Dark",
     "workbench.productIconTheme": "fluent-icons",
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "monolisa",
     "files.autoSave": "afterDelay",
     "workbench.colorCustomizations": {
         "list.focusForeground": "#ffffff",
@@ -30,13 +30,48 @@
         "welcomePage.buttonBackground": "#00ffff",
         "focusBorder": "#00ffff",
         
+        
+        "welcomePage.progress.foreground": "#00ffff",
         "menu.selectionForeground": "#ffffff",
         "menu.selectionBackground": "#1ed2ff11",
         "menubar.selectionBackground": "#1ed2ff11",
         "menu.foreground": "#ffffffc9",
         "tab.inactiveForeground": "#ffffffc9"
         // kode hex ayu dark kuning kuning #e6b450
+        
     },
 
+    "window.zoomLevel": -1,
+//Pengaturan Warna Teks
+    "editor.tokenColorCustomizations": {
+        "strings": "#6dffec",
+        "variables": "#00ff9d",
+        "keywords": "#e1bcff",
+        "functions": "#c5ffdf",
+        "numbers": "#f4ffad",
+        "comments": "#aaaaaa",
+        "types": "#9893ff",
+        "textMateRules": [
+            {
+                "scope": "storage.type.function",
+                "settings": {
+                    "foreground": "#9699ff"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#00ff9d",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#ff8787"
+                }
+            }
+        ]
+    }
 
 }
