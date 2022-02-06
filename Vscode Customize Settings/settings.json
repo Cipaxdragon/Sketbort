@@ -1,51 +1,65 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "git.enableSmartCommit": true,
-    "explorer.confirmDelete": true,
-    "editor.minimap.enabled": false,
-    "git.autofetch": true,
-    "git.confirmSync": false,
     "workbench.colorTheme": "Ayu Dark",
     "workbench.productIconTheme": "fluent-icons",
-
     "files.autoSave": "afterDelay",
+
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": true,
+    "git.autofetch": true,
+
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false,
+    "discord.enabled": false,
+    "window.zoomLevel": 1,
+
     "workbench.colorCustomizations": {
 		// "editorLineNumber.foreground": "#c5c5c5",
+
 		"editorSuggestWidget.highlightForeground": "#ffe261",
 		"editorSuggestWidget.selectedForeground": "#00ffff",
+        "editorIndentGuide.activeBackground": "#00ffff55",
 		"editorSuggestWidget.foreground": "#b3b3b3",
-        "list.focusForeground": "#ffffff",
-        "foreground": "#ffffff",
         "editorLineNumber.activeForeground": "#ffffff",
         "editor.lineHighlightBackground": "#ffffff00",
         "editor.lineHighlightBorder": "#ffffff11",
         "editor.selectionBackground": "#0083838e",
-        "icon.foreground": "#ffffff",
         "editorBracketMatch.background": "#00d9ff23",
-        "tab.activeForeground": "#ffffff",
-        "titleBar.activeForeground": "#ffffff",
-		"activityBar.inactiveForeground": "#808080",
-        "activityBar.foreground": "#00ffff",
         "editor.foreground": "#ffffff",
-        "activityBarBadge.foreground": "#000000",
-        "gitDecoration.untrackedResourceForeground": "#fffd73",
-        "gitDecoration.modifiedResourceForeground": "#00ffff",
         "editorCursor.foreground": "#00ffff",
-        "activityBarBadge.background": "#00ffff",
-        "activityBar.activeBorder": "#00ffff",
-        "tab.activeBorder": "#00ffff",
-        "editorIndentGuide.activeBackground": "#00ffff55",
-        "welcomePage.buttonBackground": "#00ffff",
-        "focusBorder": "#00ffff",
-        "welcomePage.progress.foreground": "#00ffff",
+
         "menu.selectionForeground": "#ffffff",
         "menu.selectionBackground": "#1ed2ff11",
         "menubar.selectionBackground": "#1ed2ff11",
         "menu.foreground": "#ffffffc9",
-        "tab.inactiveForeground": "#ffffffc9",
-		"statusBarItem.remoteBackground": "#00ffff",
+
+        "activityBar.inactiveForeground": "#808080",
+        "activityBar.foreground": "#00ffff",
+        "activityBarBadge.foreground": "#000000",
+        "activityBarBadge.background": "#00ffff",
+        "activityBar.activeBorder": "#00ffff",
+
+        "statusBarItem.remoteBackground": "#00ffff",
 		"statusBarItem.remoteForeground": "#000000",
 		"statusBar.foreground": "#979797",
+
+        "gitDecoration.untrackedResourceForeground": "#fffd73",
+        "gitDecoration.modifiedResourceForeground": "#00ffff",
+
+        "tab.activeForeground": "#ffffff",
+        "tab.activeBorder": "#00ffff",
+        "tab.inactiveForeground": "#ffffffc9",
+
+        "welcomePage.buttonBackground": "#00ffff",
+        "welcomePage.progress.foreground": "#00ffff",
+
+        "list.focusForeground": "#ffffff",
+        "icon.foreground": "#ffffff",
+
+        "titleBar.activeForeground": "#ffffff",
+        
+        "foreground": "#ffffff",
+        "focusBorder": "#00ffff",
 
 
         // kode hex ayu dark kuning kuning #e6b450
@@ -106,7 +120,7 @@
 			}
 			
         ]
-	},
+    },
 
 
 }
