@@ -1,126 +1,135 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Ayu Dark",
-    "workbench.productIconTheme": "fluent-icons",
-    "files.autoSave": "afterDelay",
-
-    "git.enableSmartCommit": true,
-    "explorer.confirmDelete": true,
-    "git.autofetch": true,
-
-    "editor.minimap.enabled": false,
-    "git.confirmSync": false,
-    "discord.enabled": false,
-    "window.zoomLevel": 1,
-
-    "workbench.colorCustomizations": {
-		// "editorLineNumber.foreground": "#c5c5c5",
-
-		"editorSuggestWidget.highlightForeground": "#ffe261",
-		"editorSuggestWidget.selectedForeground": "#00ffff",
-        "editorIndentGuide.activeBackground": "#00ffff55",
-		"editorSuggestWidget.foreground": "#b3b3b3",
-        "editorLineNumber.activeForeground": "#ffffff",
-        "editor.lineHighlightBackground": "#ffffff00",
-        "editor.lineHighlightBorder": "#ffffff11",
-        "editor.selectionBackground": "#0083838e",
-        "editorBracketMatch.background": "#00d9ff23",
-        "editor.foreground": "#ffffff",
-        "editorCursor.foreground": "#00ffff",
-
-        "menu.selectionForeground": "#ffffff",
-        "menu.selectionBackground": "#1ed2ff11",
-        "menubar.selectionBackground": "#1ed2ff11",
-        "menu.foreground": "#ffffffc9",
-
-        "activityBar.inactiveForeground": "#808080",
-        "activityBar.foreground": "#00ffff",
-        "activityBarBadge.foreground": "#000000",
-        "activityBarBadge.background": "#00ffff",
-        "activityBar.activeBorder": "#00ffff",
-
-        "statusBarItem.remoteBackground": "#00ffff",
-		"statusBarItem.remoteForeground": "#000000",
-		"statusBar.foreground": "#979797",
-
-        "gitDecoration.untrackedResourceForeground": "#fffd73",
-        "gitDecoration.modifiedResourceForeground": "#00ffff",
-
-        "tab.activeForeground": "#ffffff",
-        "tab.activeBorder": "#00ffff",
-        "tab.inactiveForeground": "#ffffffc9",
-
-        "welcomePage.buttonBackground": "#00ffff",
-        "welcomePage.progress.foreground": "#00ffff",
-
-        "list.focusForeground": "#ffffff",
-        "icon.foreground": "#ffffff",
-
-        "titleBar.activeForeground": "#ffffff",
+    //Pengaturan Umum
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.colorTheme": "Ayu Dark",
+        "workbench.productIconTheme": "fluent-icons",
+        "files.autoSave": "afterDelay",
+        "git.enableSmartCommit": true,
+    
+        "editor.quickSuggestions": {
+            "other": true, //jika ingin mengaktifkan/menonaktifkan suggestiob false/ true
+            "comments": false,
+            "strings": true
+        },
         
-        "foreground": "#ffffff",
-        "focusBorder": "#00ffff",
+        "explorer.confirmDelete": true,
+        "git.autofetch": true,
+        "git.allowForcePush": true,
+        "git.confirmSync": false,
+        "discord.enabled": false,
+    
+    //pengaturan Warna Aplikasi/Editor
+        "workbench.colorCustomizations": {
+            "editorSuggestWidget.highlightForeground": "#ffe261",
+            "editorSuggestWidget.selectedForeground": "#00ffff",
+            "editorIndentGuide.activeBackground": "#00ffff55",
+            "editorSuggestWidget.foreground": "#b3b3b3",
+            "editorLineNumber.activeForeground": "#ffffff",
+            "editor.lineHighlightBackground": "#ffffff00",
+            "editor.lineHighlightBorder": "#ffffff11",
+            "editor.selectionBackground": "#0083838e",
+            "editorBracketMatch.background": "#00d9ff23",
+            "editor.foreground": "#ffffff",
+            "editorCursor.foreground": "#00ffff",
+            
 
-
-        // kode hex ayu dark kuning kuning #e6b450
-        
-    },
-//Pengaturan Warna Teks
-    "editor.tokenColorCustomizations": {
-        "strings": "#6dffec",
-        "variables": "#00ff9d",
-        "keywords": "#e1bcff",
-        "functions": "#c5ffdf",
-        "numbers": "#f4ffad",
-        "comments": "#aaaaaa",
-        "types": "#9893ff",
-        "textMateRules": [
-            {
-                "scope": "storage.type.function",
-                "settings": {
-                    "foreground": "#9699ff"
+            "menu.selectionForeground": "#ffffff",
+            "menu.selectionBackground": "#1ed2ff11",
+            "menubar.selectionBackground": "#1ed2ff11",
+            "menu.foreground": "#ffffffc9",
+    
+            "activityBar.inactiveForeground": "#808080",
+            "activityBar.foreground": "#00ffff",
+            "activityBarBadge.foreground": "#000000",
+            "activityBarBadge.background": "#00ffff",
+            "activityBar.activeBorder": "#00ffff",
+    
+            "statusBarItem.remoteBackground": "#00ffff",
+            "statusBarItem.remoteForeground": "#000000",
+            "statusBar.foreground": "#979797",
+    
+            "gitDecoration.untrackedResourceForeground": "#fffd73",
+            "gitDecoration.modifiedResourceForeground": "#00ffff",
+    
+            
+            "tab.activeForeground": "#ffffff",
+            "tab.activeBorder": "#00ffff",
+            "tab.inactiveForeground": "#ffffffc9",
+    
+            "welcomePage.buttonBackground": "#00ffff",
+            "welcomePage.progress.foreground": "#00ffff",
+    
+            "list.focusForeground": "#ffffff",
+            "icon.foreground": "#ffffff",
+    
+            "titleBar.activeForeground": "#ffffff",
+            
+            "foreground": "#ffffff",
+            "focusBorder": "#00ffff",
+    
+    
+            // kode hex ayu dark kuning kuning #e6b450
+            
+        },
+    
+    //Pengaturan Warna Token Teks Editor
+        "editor.tokenColorCustomizations": {
+            "strings": "#6dffec",
+            "variables": "#00ff9d",
+            "keywords": "#e1bcff",
+            "functions": "#c5ffdf",
+            "numbers": "#f4ffad",
+            "comments": "#aaaaaa",
+            "types": "#9893ff",
+            "textMateRules": [
+                {
+                    "scope": "storage.type.function",
+                    "settings": {
+                        "foreground": "#9699ff"
+                    }
+                },
+                {
+                    "scope": "entity.other.attribute-name",
+                    "settings": {
+                        "foreground": "#00ff9d",
+                        "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#ff8787"
+                    }
+                },
+                {
+                    "scope": "punctuation.separator",
+                    "settings": {
+                        "foreground": "#d9ff00"
+                    }
+                },
+                {
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#1fcbff"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.tag.end",
+                    "settings": {
+                        "foreground": "#f0ff9b"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.tag.begin",
+                    "settings": {
+                        "foreground": "#f0ff9b"
+                    }
                 }
-            },
-            {
-                "scope": "entity.other.attribute-name",
-                "settings": {
-                    "foreground": "#00ff9d",
-                    "fontStyle": "italic",
-                }
-            },
-            {
-                "scope": "keyword",
-                "settings": {
-                    "foreground": "#ff8787"
-                }
-            },
-            {
-                "scope": "punctuation.separator",
-                "settings": {
-                    "foreground": "#d9ff00"
-                }
-            },
-            {
-                "scope": "entity.name.tag",
-                "settings": {
-                    "foreground": "#1fcbff"
-                }
-            },
-			{
-				"scope": "punctuation.definition.tag.end",
-				"settings": {
-					"foreground": "#f0ff9b"
-				}
-			},
-			{
-				"scope": "punctuation.definition.tag.begin",
-				"settings": {
-					"foreground": "#f0ff9b"
-				}
-			}
-			
-        ]
-    },
-
-
-}
+                
+            ]
+        },
+        "window.zoomLevel": -1,
+        "editor.minimap.enabled": false,
+    
+    
+    }

@@ -1,13 +1,12 @@
 {
-    "lorem ipsum": {
-        "prefix": "lorem",
-        "body": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis libero nulla. Sed ultricies fringilla arcu. Praesent at lectus sem. Vivamus at lacus nec leo vehicula commodo. Nunc vulputate porta mi a finibus. Vivamus interdum urna risus, auctor pharetra risus auctor sed. Sed congue metus et venenatis suscipit. Nullam sagittis lacus sit amet dolor lacinia, eget feugiat est efficitur. Nullam id metus at ante imperdiet tincidunt sit amet et libero. Nulla molestie libero a pellentesque convallis. Etiam sed lectus nisl. Proin metus est, ultricies sed consequat a, feugiat dictum mauris. Cras malesuada, nisl quis facilisis facilisis, lorem lectus tristique justo, et imperdiet justo massa sed libero.",
-            ],
-        "description": "text lorem ipsu,",
+
+    "pinggiran": {
+        "prefix": "bor",
+        "body": "style= \"border: 1px red solid\"",
+        "description": "Border Merah",
     
         },
-
+    
     "belajar elemen": {
         "prefix": "belajar",
         "body": [

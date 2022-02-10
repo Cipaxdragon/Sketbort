@@ -1,10 +1,15 @@
 [
 
+  
     {
         "key": "ctrl+shift+j",
         "command": "editor.action.joinLines"
     },
-
+    {
+        "key": "f12",
+        "command": "inspect"
+    },
+    
     {
         "key": "ctrl+shift+backspace",
         "command": "editor.action.deleteLines",
@@ -40,6 +45,22 @@
         "key": "f5",
         "command": "-workbench.action.debug.start",
         "when": "debuggersAvailable && debugState == 'inactive'"
-    }
+    },
+    {
+        "key": "ctrl+i ctrl+9",
+        "command": "deleteAllLeft",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "-deleteAllLeft",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f12",
+        "command": "editor.action.inspectTMScopes"
+    },
+
+
 ]
 //sorkat andalan bay gazali
