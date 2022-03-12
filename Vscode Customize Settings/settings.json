@@ -9,9 +9,11 @@
         "editor.quickSuggestions": {
             "other": true, //jika ingin mengaktifkan/menonaktifkan suggestiob false/ true
             "comments": false,
-            "strings": true
+            "strings": false,
         },
-        
+    
+        "php.validate.executablePath": "C:\\xampp\\php",
+        "php.debug.executablePath": "C:\\xampp\\php",
         "explorer.confirmDelete": true,
         "git.autofetch": true,
         "git.allowForcePush": true,
@@ -31,13 +33,13 @@
             "editorBracketMatch.background": "#00d9ff23",
             "editor.foreground": "#ffffff",
             "editorCursor.foreground": "#00ffff",
-            
+            "editorBracketMatch.border": "#ffffff54",
 
             "menu.selectionForeground": "#ffffff",
             "menu.selectionBackground": "#1ed2ff11",
             "menubar.selectionBackground": "#1ed2ff11",
             "menu.foreground": "#ffffffc9",
-    
+
             "activityBar.inactiveForeground": "#808080",
             "activityBar.foreground": "#00ffff",
             "activityBarBadge.foreground": "#000000",
@@ -47,10 +49,25 @@
             "statusBarItem.remoteBackground": "#00ffff",
             "statusBarItem.remoteForeground": "#000000",
             "statusBar.foreground": "#979797",
+
+            
     
             "gitDecoration.untrackedResourceForeground": "#fffd73",
             "gitDecoration.modifiedResourceForeground": "#00ffff",
-    
+
+            "list.activeSelectionForeground": "#0ff",
+            "list.hoverForeground": "#00ffffbb",
+    		"list.hoverBackground": "#00000000",
+		    "list.inactiveSelectionBackground": "#00000000",
+		    "list.inactiveSelectionForeground": "#0ff",
+    		"list.focusOutline": "#0ff",
+            "list.activeSelectionBackground": "#00000000",
+    		"button.hoverBackground": "#b8fcfc",
+
+            "button.background": "#0ff",
+            "button.foreground": "#006161",
+            
+		    "sideBar.background": "#0b0e14",
             
             "tab.activeForeground": "#ffffff",
             "tab.activeBorder": "#00ffff",
@@ -63,10 +80,11 @@
             "icon.foreground": "#ffffff",
     
             "titleBar.activeForeground": "#ffffff",
-            
+		    "textLink.foreground": "#00ffffbb",
+            "textLink.activeForeground": "#0ff",
             "foreground": "#ffffff",
             "focusBorder": "#00ffff",
-    
+            
     
             // kode hex ayu dark kuning kuning #e6b450
             
@@ -128,8 +146,9 @@
                 
             ]
         },
-        "window.zoomLevel": -1,
+        "bracket-pair-colorizer-2.depreciation-notice": false,
         "editor.minimap.enabled": false,
+        "vscode-edge-devtools.mirrorEdits": true,
     
     
     }
