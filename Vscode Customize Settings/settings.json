@@ -9,7 +9,7 @@
         "editor.quickSuggestions": {
             "other": true, //jika ingin mengaktifkan/menonaktifkan suggestiob false/ true
             "comments": false,
-            "strings": false,
+            "strings": false
         },
     
         "php.validate.executablePath": "C:\\xampp\\php",
@@ -83,7 +83,7 @@
 		    "textLink.foreground": "#00ffffbb",
             "textLink.activeForeground": "#0ff",
             "foreground": "#ffffff",
-            "focusBorder": "#00ffff",
+            "focusBorder": "#00ffff"
             
     
             // kode hex ayu dark kuning kuning #e6b450
@@ -110,7 +110,7 @@
                     "scope": "entity.other.attribute-name",
                     "settings": {
                         "foreground": "#00ff9d",
-                        "fontStyle": "italic",
+                        "fontStyle": "italic"
                     }
                 },
                 {
@@ -148,7 +148,7 @@
         },
         "bracket-pair-colorizer-2.depreciation-notice": false,
         "editor.minimap.enabled": false,
-        "vscode-edge-devtools.mirrorEdits": true,
+        "vscode-edge-devtools.mirrorEdits": true
     
     
     }
