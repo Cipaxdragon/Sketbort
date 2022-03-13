@@ -1,7 +1,43 @@
 [
 	{
 		"identifier": {
+			"id": "github.codespaces"
+		},
+		"preRelease": false,
+		"version": "1.5.4"
+	},
+	{
+		"identifier": {
+			"id": "github.vscode-pull-request-github"
+		},
+		"preRelease": false,
+		"version": "0.36.2",
+		"state": {}
+	},
+	{
+		"identifier": {
+			"id": "ms-vscode.anycode"
+		},
+		"preRelease": false,
+		"version": "0.0.58"
+	},
+	{
+		"identifier": {
+			"id": "ms-vscode.azure-repos"
+		},
+		"preRelease": false,
+		"version": "0.4.0"
+	},
+	{
+		"identifier": {
 			"id": "vscode.bat"
+		},
+		"preRelease": false,
+		"version": "1.0.0"
+	},
+	{
+		"identifier": {
+			"id": "vscode.builtin-notebook-renderers"
 		},
 		"preRelease": false,
 		"version": "1.0.0"
@@ -580,6 +616,16 @@
 		},
 		"preRelease": false,
 		"version": "0.2.1",
+		"disabled": true,
+		"installed": true
+	},
+	{
+		"identifier": {
+			"id": "coenraads.bracket-pair-colorizer-2",
+			"uuid": "5a6e2b21-1d61-4acd-b31b-907f9c23f18a"
+		},
+		"preRelease": false,
+		"version": "0.2.2",
 		"installed": true
 	},
 	{
@@ -598,6 +644,16 @@
 		},
 		"preRelease": false,
 		"version": "1.11.0",
+		"disabled": true,
+		"installed": true
+	},
+	{
+		"identifier": {
+			"id": "formulahendry.auto-rename-tag",
+			"uuid": "6e440e71-8ed9-4f25-bb78-4b13096b8a03"
+		},
+		"preRelease": false,
+		"version": "0.1.10",
 		"installed": true
 	},
 	{
@@ -606,7 +662,7 @@
 			"uuid": "a6a0c5b2-d078-4bf5-a9ee-4e37054414b3"
 		},
 		"preRelease": false,
-		"version": "0.11.6",
+		"version": "0.11.7",
 		"installed": true
 	},
 	{
@@ -616,6 +672,15 @@
 		},
 		"preRelease": false,
 		"version": "0.24.0",
+		"installed": true
+	},
+	{
+		"identifier": {
+			"id": "hassanoof93.attraction--iconsthemes",
+			"uuid": "ca13f37b-e4e5-4573-88aa-82e1600eaad5"
+		},
+		"preRelease": false,
+		"version": "0.0.1",
 		"installed": true
 	},
 	{
@@ -647,6 +712,24 @@
 	},
 	{
 		"identifier": {
+			"id": "moyu.snapcode",
+			"uuid": "f5fdc3b4-24a3-42b7-ac9c-61568eb96c07"
+		},
+		"preRelease": false,
+		"version": "1.1.0",
+		"installed": true
+	},
+	{
+		"identifier": {
+			"id": "ms-edgedevtools.vscode-edge-devtools",
+			"uuid": "11cb120c-f665-45bc-a21e-6de8a5685850"
+		},
+		"preRelease": false,
+		"version": "1.4.5",
+		"installed": true
+	},
+	{
+		"identifier": {
 			"id": "ms-vscode-remote.remote-wsl-recommender",
 			"uuid": "cb296d3c-017a-4dee-83af-ebb5a5a16e9a"
 		},
@@ -659,7 +742,7 @@
 			"uuid": "690b692e-e8a9-493f-b802-8089d50ac1b2"
 		},
 		"preRelease": false,
-		"version": "1.8.2",
+		"version": "1.8.4",
 		"installed": true
 	},
 	{
@@ -668,7 +751,7 @@
 			"uuid": "25629058-ddac-4e17-abba-74678e126c5d"
 		},
 		"preRelease": false,
-		"version": "1.64.2"
+		"version": "1.64.3"
 	},
 	{
 		"identifier": {
@@ -693,6 +776,7 @@
 		},
 		"preRelease": false,
 		"version": "4.0.10",
+		"disabled": true,
 		"installed": true,
 		"state": {
 			"alreadyPrompted": true
@@ -721,10 +805,10 @@
 			"uuid": "5db78037-f674-459f-a236-db622c427c5b"
 		},
 		"preRelease": false,
-		"version": "4.12.1",
+		"version": "4.14.1",
 		"installed": true,
 		"state": {
-			"material-icon-theme.version": "4.12.1"
+			"material-icon-theme.version": "4.14.1"
 		}
 	},
 	{
@@ -733,10 +817,10 @@
 			"uuid": "b63c44fd-0457-4696-99e9-dbfdf70d77de"
 		},
 		"preRelease": false,
-		"version": "5.7.4",
+		"version": "5.7.5",
 		"installed": true,
 		"state": {
-			"liveServer.setup.version": "5.7.4"
+			"liveServer.setup.version": "5.7.5"
 		}
 	},
 	{
@@ -759,11 +843,38 @@
 	},
 	{
 		"identifier": {
+			"id": "tht13.html-preview-vscode",
+			"uuid": "76fbde36-77d4-4688-b1f8-202727442961"
+		},
+		"preRelease": false,
+		"version": "0.2.5",
+		"installed": true
+	},
+	{
+		"identifier": {
 			"id": "vincaslt.highlight-matching-tag",
 			"uuid": "aae00486-7e92-42b3-91b0-2b419e4f3875"
 		},
 		"preRelease": false,
 		"version": "0.10.1",
+		"installed": true
+	},
+	{
+		"identifier": {
+			"id": "xdebug.php-debug",
+			"uuid": "044b4b31-2969-4af3-895d-855433b8b46d"
+		},
+		"preRelease": false,
+		"version": "1.23.0",
+		"installed": true
+	},
+	{
+		"identifier": {
+			"id": "zignd.html-css-class-completion",
+			"uuid": "7b71fc1b-190d-4f7d-95d1-93e422649b0a"
+		},
+		"preRelease": false,
+		"version": "1.20.0",
 		"installed": true
 	}
 ]
