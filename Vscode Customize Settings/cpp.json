@@ -15,7 +15,7 @@
 	},
 
 	"Include": {
-		"prefix": "ijalkontol",
+		"prefix": "ijalsalto",
 		"body": [
 			"#include <iostream>",
 			"",
