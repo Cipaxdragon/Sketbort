@@ -1,154 +1,182 @@
 {
     //Pengaturan Umum
-        "workbench.iconTheme": "material-icon-theme",
-        "workbench.colorTheme": "Ayu Dark",
-        "workbench.productIconTheme": "fluent-icons",
-        "files.autoSave": "afterDelay",
-        "git.enableSmartCommit": true,
-    
-        "editor.quickSuggestions": {
-            "other": true, //jika ingin mengaktifkan/menonaktifkan suggestiob false/ true
-            "comments": false,
-            "strings": false
-        },
-    
-        "php.validate.executablePath": "C:\\xampp\\php",
-        "php.debug.executablePath": "C:\\xampp\\php",
-        "explorer.confirmDelete": true,
-        "git.autofetch": true,
-        "git.allowForcePush": true,
-        "git.confirmSync": false,
-        "discord.enabled": false,
-    
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.productIconTheme": "fluent-icons",
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    // "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.quickSuggestions": {
+        "other": true, //jika ingin mengaktifkan/menonaktifkan suggestiob false/ true
+        "comments": false,
+        "strings": false,
+    },
+    "explorer.confirmDelete": true,
+    "git.autofetch": true,
+    "git.allowForcePush": true,
+    "git.confirmSync": false,
+    "discord.enabled": false,
     //pengaturan Warna Aplikasi/Editor
-        "workbench.colorCustomizations": {
-            "editorSuggestWidget.highlightForeground": "#ffe261",
-            "editorSuggestWidget.selectedForeground": "#00ffff",
-            "editorIndentGuide.activeBackground": "#00ffff55",
-            "editorSuggestWidget.foreground": "#b3b3b3",
-            "editorLineNumber.activeForeground": "#ffffff",
-            "editor.lineHighlightBackground": "#ffffff00",
-            "editor.lineHighlightBorder": "#ffffff11",
-            "editor.selectionBackground": "#0083838e",
-            "editorBracketMatch.background": "#00d9ff23",
-            "editor.foreground": "#ffffff",
-            "editorCursor.foreground": "#00ffff",
-            "editorBracketMatch.border": "#ffffff54",
-
-            "menu.selectionForeground": "#ffffff",
-            "menu.selectionBackground": "#1ed2ff11",
-            "menubar.selectionBackground": "#1ed2ff11",
-            "menu.foreground": "#ffffffc9",
-
-            "activityBar.inactiveForeground": "#808080",
-            "activityBar.foreground": "#00ffff",
-            "activityBarBadge.foreground": "#000000",
-            "activityBarBadge.background": "#00ffff",
-            "activityBar.activeBorder": "#00ffff",
-    
-            "statusBarItem.remoteBackground": "#00ffff",
-            "statusBarItem.remoteForeground": "#000000",
-            "statusBar.foreground": "#979797",
-
-            
-    
-            "gitDecoration.untrackedResourceForeground": "#fffd73",
-            "gitDecoration.modifiedResourceForeground": "#00ffff",
-
-            "list.activeSelectionForeground": "#0ff",
-            "list.hoverForeground": "#00ffffbb",
-    		"list.hoverBackground": "#00000000",
-		    "list.inactiveSelectionBackground": "#00000000",
-		    "list.inactiveSelectionForeground": "#0ff",
-    		"list.focusOutline": "#0ff",
-            "list.activeSelectionBackground": "#00000000",
-    		"button.hoverBackground": "#b8fcfc",
-
-            "button.background": "#0ff",
-            "button.foreground": "#006161",
-            
-		    "sideBar.background": "#0b0e14",
-            
-            "tab.activeForeground": "#ffffff",
-            "tab.activeBorder": "#00ffff",
-            "tab.inactiveForeground": "#ffffffc9",
-    
-            "welcomePage.buttonBackground": "#00ffff",
-            "welcomePage.progress.foreground": "#00ffff",
-    
-            "list.focusForeground": "#ffffff",
-            "icon.foreground": "#ffffff",
-    
-            "titleBar.activeForeground": "#ffffff",
-		    "textLink.foreground": "#00ffffbb",
-            "textLink.activeForeground": "#0ff",
-            "foreground": "#ffffff",
-            "focusBorder": "#00ffff"
-            
-    
-            // kode hex ayu dark kuning kuning #e6b450
-            
-        },
-    
+    "workbench.colorCustomizations": {
+        "editorSuggestWidget.highlightForeground": "#ffe261",
+        "editorSuggestWidget.selectedForeground": "#00ffff",
+        "editorIndentGuide.activeBackground": "#00ffff55",
+        "editorSuggestWidget.foreground": "#b3b3b3",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editor.lineHighlightBackground": "#ffffff00",
+        "editor.lineHighlightBorder": "#ffffff11",
+        "editor.selectionBackground": "#0083838e",
+        "editorBracketMatch.background": "#00d9ff23",
+        "editor.foreground": "#ffffff",
+        "editorCursor.foreground": "#00ffff",
+        "editorBracketMatch.border": "#ffffff54",
+        "menu.selectionForeground": "#ffffff",
+        "menu.selectionBackground": "#1ed2ff11",
+        "menubar.selectionBackground": "#1ed2ff11",
+        "menu.foreground": "#ffffffc9",
+        "activityBar.inactiveForeground": "#808080",
+        "activityBar.foreground": "#00ffff",
+        "activityBarBadge.foreground": "#000000",
+        "activityBarBadge.background": "#00ffff",
+        "activityBar.activeBorder": "#00ffff",
+        "statusBarItem.remoteBackground": "#00ffff",
+        "statusBarItem.remoteForeground": "#000000",
+        "statusBar.foreground": "#979797",
+        "gitDecoration.untrackedResourceForeground": "#fffd73",
+        "gitDecoration.modifiedResourceForeground": "#00ffff",
+        "list.activeSelectionForeground": "#0ff",
+        "list.hoverForeground": "#00ffffbb",
+        "list.hoverBackground": "#00000000",
+        "list.inactiveSelectionBackground": "#00000000",
+        "list.inactiveSelectionForeground": "#0ff",
+        "list.focusOutline": "#0ff",
+        "list.activeSelectionBackground": "#00000000",
+        "button.hoverBackground": "#b8fcfc",
+        "button.background": "#0ff",
+        "button.foreground": "#006161",
+        "sideBar.background": "#0b0e14",
+        "tab.activeForeground": "#ffffff",
+        "tab.activeBorder": "#00ffff",
+        "tab.inactiveForeground": "#ffffffc9",
+        "welcomePage.buttonBackground": "#00ffff",
+        "welcomePage.progress.foreground": "#00ffff",
+        "list.focusForeground": "#ffffff",
+        "icon.foreground": "#ffffff",
+        "titleBar.activeForeground": "#ffffff",
+        "textLink.foreground": "#00ffffbb",
+        "textLink.activeForeground": "#0ff",
+        "foreground": "#ffffff",
+        "focusBorder": "#00ffff"
+    },
     //Pengaturan Warna Token Teks Editor
-        "editor.tokenColorCustomizations": {
-            "strings": "#6dffec",
-            "variables": "#00ff9d",
-            "keywords": "#e1bcff",
-            "functions": "#c5ffdf",
-            "numbers": "#f4ffad",
-            "comments": "#aaaaaa",
-            "types": "#9893ff",
-            "textMateRules": [
-                {
-                    "scope": "storage.type.function",
-                    "settings": {
-                        "foreground": "#9699ff"
-                    }
-                },
-                {
-                    "scope": "entity.other.attribute-name",
-                    "settings": {
-                        "foreground": "#00ff9d",
-                        "fontStyle": "italic"
-                    }
-                },
-                {
-                    "scope": "keyword",
-                    "settings": {
-                        "foreground": "#ff8787"
-                    }
-                },
-                {
-                    "scope": "punctuation.separator",
-                    "settings": {
-                        "foreground": "#d9ff00"
-                    }
-                },
-                {
-                    "scope": "entity.name.tag",
-                    "settings": {
-                        "foreground": "#1fcbff"
-                    }
-                },
-                {
-                    "scope": "punctuation.definition.tag.end",
-                    "settings": {
-                        "foreground": "#f0ff9b"
-                    }
-                },
-                {
-                    "scope": "punctuation.definition.tag.begin",
-                    "settings": {
-                        "foreground": "#f0ff9b"
-                    }
+    "editor.tokenColorCustomizations": {
+        "strings": "#6dffec",
+        "variables": "#00ff9d",
+        "keywords": "#e1bcff",
+        "functions": "#c5ffdf",
+        "numbers": "#f4ffad",
+        "comments": "#aaaaaa",
+        "types": "#9893ff",
+        "textMateRules": [
+            {
+                "scope": "storage.type.function",
+                "settings": {
+                    "foreground": "#9699ff"
                 }
-                
-            ]
-        },
-        "bracket-pair-colorizer-2.depreciation-notice": false,
-        "editor.minimap.enabled": false,
-        "vscode-edge-devtools.mirrorEdits": true
-    
-    
-    }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#00ff9d",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#ff8787"
+                }
+            },
+            {
+                "scope": "punctuation.separator",
+                "settings": {
+                    "foreground": "#d9ff00"
+                }
+            },
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#1fcbff"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag.end",
+                "settings": {
+                    "foreground": "#f0ff9b"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag.begin",
+                "settings": {
+                    "foreground": "#f0ff9b"
+                }
+            },
+            {
+                "scope": "punctuation.section.embedded.begin.php",
+                "settings": {
+                    "foreground": "#ff92ed"
+                }
+            },
+            {
+                "scope": "punctuation.section.embedded",
+                "settings": {
+                    "foreground": "#ff92ed"
+                }
+            }
+        ]
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "redhat.telemetry.enabled": true,
+    "google.drive.alertMissingCredentials": false,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 2,
+    "code-runner.executorMapByFileExtension": {
+        ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
+        ".vbs": "cscript //Nologo",
+        ".scala": "scala",
+        ".jl": "julia",
+        ".cr": "crystal",
+        ".ml": "ocaml",
+        ".exs": "elixir",
+        ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        ".rkt": "racket",
+        ".scm": "csi -script",
+        ".ahk": "autohotkey",
+        ".au3": "autoit3",
+        ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+        ".kts": "kotlinc -script",
+        ".dart": "dart",
+        ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        ".hs": "runhaskell",
+        ".nim": "nim compile --verbosity:0 --hints:off --run",
+        ".csproj": "dotnet run --project",
+        ".fsproj": "dotnet run --project",
+        ".lisp": "sbcl --script",
+        ".kit": "kitc --run",
+        ".v": "v run",
+        ".vsh": "v run",
+        ".sass": "sass --style expanded",
+        ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".ring": "ring"
+    },
+    "php.suggest.basic": false,
+    "editor.fontLigatures": true,
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "window.zoomLevel": -1,
+}

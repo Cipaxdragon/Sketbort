@@ -1,0 +1,70 @@
+{
+
+    "php": {
+        "prefix": "pehape",
+        "body": [
+            "<?php",
+            "\t$1",
+            "?>",
+        ],
+        "description": "php html",
+    },
+    "php dikit": {
+        "prefix": "pihapi",
+        "body": [
+            "<?php $1?>",
+        ],
+        "description": "php html",
+    },
+    "for": {
+        "prefix": "por",
+        "body": [
+            "for($$1 = 0;$$1 <= 10;$$1++){",
+            "\t",
+            "}"
+        ],
+        "description": "Code snippet for For Luping statement"
+    },
+    "vor": {
+        "prefix": "vor",
+        "body": [
+            "<?php for($i = 1;$i <= 10;$i++){?>",
+            "\t",
+            "<php ?>",
+        ],
+        "description": "Code snippet for For Luping statement"
+    },
+    "deklarasi pariabel": {
+        "prefix": "var",
+        "body": [
+            "$$1;",
+        ],
+        "description": "deklarasi variabel jika malas tekan dolar"
+    },
+    "deklarasi": {
+        "prefix": "par",
+        "body": [
+            "$$1 = ;",
+        ],
+        "description": "deklarasi variabel jika malas tekan dolar"
+    },
+    "ipp": {
+        "prefix": "ipp",
+        "body": [
+            "if($1){",
+            "\t",
+            "}",
+            "else{",
+            "\t",
+            "}",
+        ],
+        "description": "Code snippet for For Luping statement"
+    },
+    "eco": {
+        "prefix": "eco",
+        "body": [
+            "echo $1;",
+        ],
+        "description": "Code snippet for For Luping statement"
+    },
+}
