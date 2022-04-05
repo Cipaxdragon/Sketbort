@@ -29,7 +29,7 @@
         "editor.selectionBackground": "#0083838e",
         "editorBracketMatch.background": "#00d9ff23",
         "editor.foreground": "#ffffff",
-        "editorCursor.foreground": "#00ffff",
+        "editorCursor.foreground": "#ffea00",
         "editorBracketMatch.border": "#ffffff54",
         "menu.selectionForeground": "#ffffff",
         "menu.selectionBackground": "#1ed2ff11",
@@ -179,4 +179,8 @@
         "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
     },
     "window.zoomLevel": -1,
+    "[javascript]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "workbench.startupEditor": "none",
 }
