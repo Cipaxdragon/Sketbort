@@ -60,5 +60,14 @@
             "cout << endl;"
         ],
         "description": "Code snippet for if statement"
+    },
+
+    "sistem pause": {
+        "prefix": "paus",
+        "body": [
+            "system(\"pause\");"
+        ],
+        "description": "Code snippet for if statement"
     }
+
 }
