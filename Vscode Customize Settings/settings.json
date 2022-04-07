@@ -1,8 +1,6 @@
 {
     //Pengaturan Umum
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Ayu Dark",
-    "workbench.productIconTheme": "fluent-icons",
     "files.autoSave": "afterDelay",
     "git.enableSmartCommit": true,
     // "editor.fontFamily": "Fira Code",
@@ -12,7 +10,7 @@
         "comments": false,
         "strings": false,
     },
-    "explorer.confirmDelete": true,
+    "explorer.confirmDelete": false,
     "git.autofetch": true,
     "git.allowForcePush": true,
     "git.confirmSync": false,
@@ -138,8 +136,6 @@
     },
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "vscode-edge-devtools.mirrorEdits": true,
-    "redhat.telemetry.enabled": true,
-    "google.drive.alertMissingCredentials": false,
     "editor.minimap.enabled": false,
     "editor.lineHeight": 2,
     "code-runner.executorMapByFileExtension": {
@@ -175,12 +171,18 @@
     },
     "php.suggest.basic": false,
     "editor.fontLigatures": true,
-    "[html]": {
-        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-    },
-    "window.zoomLevel": -1,
-    "[javascript]": {
-        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-    },
+    // "[html]": {
+    //     "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    // },
+    // "window.zoomLevel": -1,
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    // },
     "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Ayu Dark",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "window.zoomLevel": -1,
 }

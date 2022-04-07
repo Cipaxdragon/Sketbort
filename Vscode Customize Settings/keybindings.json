@@ -60,7 +60,14 @@
         "key": "f12",
         "command": "editor.action.inspectTMScopes"
     },
-
-
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "snapcode",
+        
+    },
+    {
+        "key": "alt+win+a",
+        "command": "snapcode.activate"
+    }
 ]
 //sorkat andalan bay gazali

@@ -1,73 +1,73 @@
 {
-    "cout": {
-        "prefix": "kon",
-        "body": [
-            "cout << \"$1\" << endl;"
-        ],
-        "description": "Code snippet for printing to std::cout, provided the header is set"
-    },
-    "cout no endl": {
-        "prefix": "tol",
-        "body": [
-            "cout << \"$1\";"
-        ],
-        "description": "Code snippet for printing to std::cout, provided the header is set"
-    },
-    "Include": {
-        "prefix": "ijalkontol",
-        "body": [
-            "#include <iostream>",
-            "",
-            "using namespace std;",
-            "",
-            "int main(){",
-            "",
-            "    cout << \"===== Program ${1:/* Apa Judulna Program nu */} ======\" << endl;",
-            "",
-            "    system(\"pause\");",
-            "}"
-        ],
-        "description": "langsung"
-    },
-    "input": {
-        "prefix": "masuk",
-        "body": [
-            "cin >> $1;"
-        ],
-        "description": "Code snippet for printing to std::cout, provided the header is set"
-    },
-    "if": {
-        "prefix": "ipp",
-        "body": [
-            "if (${1:/*Kondisinya Bro*/}){",
-            "\t",
-            "}"
-        ],
-        "description": "Code snippet for if statement"
-    },
-    "for": {
-        "prefix": "por",
-        "body": [
-            "for(int $1 = 0;$1 <= 10;$1++){",
-            "\t",
-            "}"
-        ],
-        "description": "Code snippet for For Luping statement"
-    },
-    "endl": {
-        "prefix": "barisbaru",
-        "body": [
-            "cout << endl;"
-        ],
-        "description": "Code snippet for if statement"
-    },
+	"cout": {
+		"prefix": "kon",
+		"body": [
+			"cout << \"$1\" << endl;"
+		],
+		"description": "Code snippet for printing to std::cout, provided the header is set"
+	},
+	"cout no endl": {
+		"prefix": "tol",
+		"body": [
+			"cout << \"$1\";"
+		],
+		"description": "Code snippet for printing to std::cout, provided the header is set"
+	},
+	"Include": {
+		"prefix": "ijalkontol",
+		"body": [
+			"#include <iostream>",
+			"",
+			"using namespace std;",
+			"",
+			"int main(){",
+			"",
+			"    cout << \"===== Program ${1:/* Apa Judulna Program nu */} ======\" << endl;",
+			"",
+			"    system(\"pause\");",
+			"}"
+		],
+		"description": "langsung"
+	},
+	"input": {
+		"prefix": "masuk",
+		"body": [
+			"cin >> $1;"
+		],
+		"description": "Code snippet for printing to std::cout, provided the header is set"
+	},
+	"if": {
+		"prefix": "ipp",
+		"body": [
+			"if (${1:/*Kondisinya Bro*/}){",
+			"\t",
+			"}"
+		],
+		"description": "Code snippet for if statement"
+	},
+	"for": {
+		"prefix": "por",
+		"body": [
+			"for(int $1 = 0;$1 <= 10;$1++){",
+			"\t",
+			"}"
+		],
+		"description": "Code snippet for For Luping statement"
+	},
+	"endl": {
+		"prefix": "barisbaru",
+		"body": [
+			"cout << endl;"
+		],
+		"description": "Code snippet for if statement"
+	},
 
-    "sistem pause": {
-        "prefix": "paus",
-        "body": [
-            "system(\"pause\");"
-        ],
-        "description": "Code snippet for if statement"
-    }
+	"sistem pause": {
+		"prefix": "paus",
+		"body": [
+			"system(\"pause\");"
+		],
+		"description": "Code snippet for if statement"
+	}
 
 }
