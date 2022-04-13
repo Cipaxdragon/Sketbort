@@ -1,0 +1,42 @@
+{
+	
+	"Nulis": {
+		"prefix": "c++",
+		"body": [
+            "{",
+                "\t\"version\": \"0.2.0\",",
+                "\t\"configurations\": [",
+                    "\t\t{",
+                        "\t\t\t\"name\": \"Salto - Belakang\",",
+                        "\t\t\t\"type\": \"cppdbg\",",
+                        "\t\t\t\"request\": \"launch\",",  
+                        "\t\t\t\"program\": \"\\${fileDirname}/\\${fileBasenameNoExtension}.exe\",",
+                        "\t\t\t\"args\": [],",
+                        "\t\t\t\"stopAtEntry\": false,",
+                        "\t\t\t\"cwd\": \"\\${fileDirname}\",",
+                        "\t\t\t\"environment\": [],",
+                        "\t\t\t\"externalConsole\": true,",
+                        "\t\t\t\"MIMode\": \"gdb\",",
+                        "\t\t\t\"miDebuggerPath\": \"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gdb.exe\",",
+                        "\t\t\t\"setupCommands\": [",
+                            "\t\t\t\t{",
+                                "\t\t\t\t\t\"description\": \"Enable pretty-printing for gdb\",",
+                                "\t\t\t\t\t\"text\": \"-enable-pretty-printing\",",
+                                "\t\t\t\t\t\"ignoreFailures\": true,",
+                            "\t\t\t\t},",
+                            "\t\t\t\t{",
+                            "\t\t\t\t\t\"description\": \"Set Disassembly Flavor to Intel\",",
+                            "\t\t\t\t\t\"text\": \"-g212db-set disassembly-flavor intel\",",
+                            "\t\t\t\t\t\"ignoreFailures\": true,",
+                            "\t\t\t\t},",
+                            
+                        "\t\t\t],",
+                        "\t\t\t\"preLaunchTask\": \"C/C++: g++.exe build active file\"",
+                    "\t\t}",
+                "\t]",
+            "}",
+		],
+		"description": "Min Gw"
+	}
+	
+}

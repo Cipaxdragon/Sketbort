@@ -1,20 +1,22 @@
 {
+
     //Pengaturan Umum
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
     "git.enableSmartCommit": true,
-    // "editor.fontFamily": "Fira Code",
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
     "editor.quickSuggestions": {
         "other": true, //jika ingin mengaktifkan/menonaktifkan suggestiob false/ true
         "comments": false,
         "strings": false,
     },
+    
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "git.allowForcePush": true,
     "git.confirmSync": false,
     "discord.enabled": false,
+
     //pengaturan Warna Aplikasi/Editor
     "workbench.colorCustomizations": {
         "editorSuggestWidget.highlightForeground": "#ffe261",
@@ -67,6 +69,7 @@
         "foreground": "#ffffff",
         "focusBorder": "#00ffff"
     },
+
     //Pengaturan Warna Token Teks Editor
     "editor.tokenColorCustomizations": {
         "strings": "#6dffec",
@@ -134,10 +137,11 @@
             }
         ]
     },
+
     "bracket-pair-colorizer-2.depreciation-notice": false,
-    "vscode-edge-devtools.mirrorEdits": true,
     "editor.minimap.enabled": false,
     "editor.lineHeight": 2,
+    
     "code-runner.executorMapByFileExtension": {
         ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
         ".vbs": "cscript //Nologo",
@@ -169,20 +173,16 @@
         ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         ".ring": "ring"
     },
+
     "php.suggest.basic": false,
-    "editor.fontLigatures": true,
-    // "[html]": {
-    //     "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-    // },
-    // "window.zoomLevel": -1,
-    // "[javascript]": {
-    //     "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-    // },
+    "editor.fontLigatures": false,
+    
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Ayu Dark",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+
     "workbench.productIconTheme": "fluent-icons",
     "window.zoomLevel": -1,
 }

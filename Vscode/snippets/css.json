@@ -1,0 +1,40 @@
+{
+	"css reset": {
+		"prefix": "ces",
+		"body": [
+			"* {",
+				"\tbox-sizing: border-box;",
+				"\tmargin:0px;",
+			"}",
+			"",
+			"body{",
+				"\tbackground-color: black;",
+				"\tfont-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;",
+			"}",
+
+			".container{",
+				"\tmargin: 20px auto;",
+				"\tpadding: 10px;",
+				"\tborder: 1px solid white;",
+				"\twidth: 700px;",
+				"\tcolor: white;",
+				"\tmargin: 20px auto;",
+			
+			"}",
+			
+			"",
+
+		],
+		"description": "langsung"
+	},
+	"Import Font":{
+		"prefix": "pon",
+		"body": [
+			"@font-face {",
+				"\tfont-family: $1;",
+				"\tsrc: url($1.ttf);",
+			  "}",		
+		],
+	}
+
+}

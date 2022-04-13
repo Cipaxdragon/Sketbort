@@ -1,0 +1,31 @@
+"{",
+    "\n\"version\": \"0.2.0\",",
+    "\n\"configurations\": [",
+        "\n\n{",
+            "\n\n\n\"name\": \"g++.exe - Build and debug active file\",",
+            "\n\n\n\"type\": \"cppdbg\",",
+            "\n\n\n\"request\": \"launch\",",  
+            "\n\n\n\"program\": \"${fileDirname}\\${fileBasenameNoExtension}.exe\",",
+            "\n\n\n\"args\": [],",
+            "\n\n\n\"stopAtEntry\": false,",
+            "\n\n\n\"cwd\": \"${fileDirname}\",",
+            "\n\n\n\"environment\": [],",
+            "\n\n\n\"externalConsole\": true,",
+            "\n\n\n\"MIMode\": \"gdb\",",
+            "\n\n\n\"miDebuggerPath\": \"C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gdb.exe\",",
+            "\n\n\n\"setupCommands\": [",
+                "\n\n\n\n{",
+                    "\n\n\n\n\n\"description\": \"Enable pretty-printing for gdb\",",
+                    "\n\n\n\n\n\"text\": \"-enable-pretty-printing\",",
+                    "\n\n\n\n\n\"ignoreFailures\": true",
+                "\n\n\n\n}",
+                "\n\n\n\n{",
+				"\n\n\n\n\n\"description\": \"Set Disassembly Flavor to Intel\",",
+				"\n\n\n\n\n\"text\": \"-g212db-set disassembly-flavor intel\",",
+                    \"ignoreFailures\": true
+                }
+            ],
+            \"preLaunchTask\": \"C/C++: g++.exe build active file\"
+        }
+    ]
+}

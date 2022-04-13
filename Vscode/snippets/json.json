@@ -1,0 +1,46 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Nulis": {
+		"prefix": "kontol",
+		"body": [
+            "{",
+                "\t\"version\": \"0.2.0\",",
+                "\t\"configurations\": [",
+                    "\t\t{",
+                        "\t\t\t\"name\": \"g++.exe - Build and debug active file\",",
+                        "\t\t\t\"type\": \"cppdbg\",",
+                        "\t\t\t\"request\": \"launch\",",  
+                        "\t\t\t\"program\": \"${fileDirname}\\${fsnileBasenameNoExtension}.exe\",",
+                        "\t\t\t\"args\": [],",
+                        "\t\t\t\"stopAtEntry\": false,",
+                        "\t\t\t\"cwd\": \"${fileDirname}\",",
+                        "\t\t\t\"environment\": [],",
+                        "\t\t\t\"externalConsole\": true,",
+                        "\t\t\t\"MIMode\": \"gdb\",",
+                        "\t\t\t\"miDebuggerPath\": \"C:\\\\Program Files (x86)\\\\mingw-w64\\\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\\\mingw32\\\\bin\\\\gdb.exe\",",
+                        "\t\t\t\"setupCommands\": [",
+                            "\t\t\t\t{",
+                                "\t\t\t\t\t\"description\": \"Enable pretty-printing for gdb\",",
+                                "\t\t\t\t\t\"text\": \"-enable-pretty-printing\",",
+                                "\t\t\t\t\t\"ignoreFailures\": true,",
+                            "\t\t\t\t}",
+                            "\t\t\t\t{",
+                            "\t\t\t\t\t\"description\": \"Set Disassembly Flavor to Intel\",",
+                            "\t\t\t\t\t\"text\": \"-g212db-set disassembly-flavor intel\",",
+                            "\t\t\t\t\t\"ignoreFailures\": true",
+                        "\t\t\t{",
+                            
+                        "\t\t\t]",
+                        "\t\t\t\"preLaunchTask\": \"C/C++: g++.exe build active file\"",
+                    "\t\t}",
+                "\t]",
+            "}",
+		],
+		"description": "Min Gw"
+	}
+	
+}
